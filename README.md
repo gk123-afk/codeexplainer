@@ -16,18 +16,18 @@ The app is powered by Google's Gemini 2.0 via the `google.generativeai` SDK, int
 
 ## 🚀 Features
 
-- ✍️ Enter any Python code and get instant explanations
-- 📘 Step-by-step reasoning of the logic
-- 🖥️ Predicted output included
-- 🤖 Powered by Gemini 2.0 (LLM)
-- 🌐 Built with Streamlit for ease of use
+- ✍️ Enter any Python code and get instant explanations  
+- 📘 Step-by-step reasoning of the logic  
+- 🖥️ Predicted output included  
+- 🤖 Powered by Gemini 2.0 (LLM)  
+- 🌐 Built with Streamlit for ease of use  
 
 ---
 
-## 🛠️ Tech Stack
+## 🧾 Requirements (No `requirements.txt` file needed)
 
-- **Frontend/UI**: Streamlit
-- **Backend**: Google Gemini API (via `google.generativeai`)
-- **Language**: Python
+Please install the required Python packages manually:
 
-
+```bash
+pip install streamlit
+pip install google-generativeai
